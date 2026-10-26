@@ -8,7 +8,7 @@ public class Ejercicio03 {
         double var4 = 20;
         int var5 = 1;
         int var6 = 11;
-        double resultado = Math.powExact(var1, var2) + Math.sqrt(var3) + var4 / (var5 + var6);
+        double resultado = Math.pow(var1, var2) + Math.sqrt(var3) + var4 / (var5 + var6);
         System.out.println("El resultado es: "+resultado);
     }
     
