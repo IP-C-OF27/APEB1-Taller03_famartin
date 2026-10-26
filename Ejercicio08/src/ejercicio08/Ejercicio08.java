@@ -11,7 +11,7 @@ public class Ejercicio08 {
         int var7 = 200;
         int var8 = 50; 
         int var9 = 51;
-        boolean resultado = ((var1 * var2) + var3 - (var4/var5) + Math.pow(var6,var5) >= var7) && (var8 >= var8 - var8 + var9)  ;
+        boolean resultado = ((var1 * var2) + var3 - (var4/var5) + Math.pow(var6,var5) >= var7) || (var8 >= var8 - var8 + var9)  ;
         System.out.println("El resultado es: "+resultado);
     }
     
